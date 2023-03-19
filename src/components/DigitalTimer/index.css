@@ -1,1 +1,29 @@
 /* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.controls-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+.start-orstop {
+  width: 40px;
+  height: 40px;
+}
+
+.timer-limit-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+p {
+    padding: 20px;
+}
